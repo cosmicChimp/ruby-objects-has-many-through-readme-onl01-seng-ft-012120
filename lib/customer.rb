@@ -32,4 +32,4 @@ class Customer
   
 end
 
-binding.pry
+#binding.pry
