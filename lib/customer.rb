@@ -20,7 +20,8 @@ class Customer
   end
   
   def waiters
-    
+    Waiter.all.select do |waiter|
+      waiter.customer
   
   def self.all
     @@all
