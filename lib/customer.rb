@@ -1,3 +1,5 @@
+
+
 class Customer
   attr_accessor :name, :age 
   
@@ -30,3 +32,5 @@ class Customer
   end
   
 end
+
+binding.pry
